@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+        <style>
+                table, th, td 
+                {
+                    border: 3px solid black;
+                    border-collapse: collapse;
+                }
+         </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td rowspan="2">01</td>
+                <td colspan="2">Riky</td>
+                <td>permata.rb@gmail.com</td>
+                <!-- <td>Jakarta</td> -->
+            </tr>
+            <tr>
+                <!-- <td>02</td> -->
+                <td>Boy</td>
+                <td>boy@email.com</td>
+                <td>Bandung</td>
+            </tr>
+        </table>
+        
+        <p></p>
+        <br>
+        <br><br><br>
+
+        <form>
+            Nama <input type="text" name="nama" required><br>
+            Phone Number <input type="number" name="phonenumber"><br>
+            Password <input type="password"><br>
+            Birthday <input type="date"><br>
+            Email <input type="email"><br>
+            Gender <input type="radio" name="gender" checked>Male
+            <input type="radio" name="gender">Female<br>
+            <Select required>
+                <option selected disabled value="">--Choose One--</option>
+                <option>Pasta</option>
+                <option>Sushi</option>
+                <option>Steak</option>
+            </Select>
+
+            <br>
+            <input type="file"><br>
+            <input type="button" value="Save"><br>
+            <button type="button">Save</button><br>
+            <input type="checkbox" required> When You Clik Here, Means You Agree with our Terms and Condition.<br>
+
+            <input type="submit" value="Submit">
+
+
+
+
+        </form>
+    </body>
+
+</html>
