@@ -25,5 +25,3 @@ function minmax(array)
     console.log(countmax + ' ' + countmin);
 }
 minmax(array);
-
-// tambahin comment baru
