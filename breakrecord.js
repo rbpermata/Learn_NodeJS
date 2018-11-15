@@ -25,3 +25,5 @@ function minmax(array)
     console.log(countmax + ' ' + countmin);
 }
 minmax(array);
+
+// Test line untuk reset
